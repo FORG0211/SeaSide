@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaside Floating Restaurant</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>  
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Restaurant Logo">
+        </div>
+        <nav>   
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="Index.html">Reservation</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <div class="content">
+            <img src="logo.png" alt="Restaurant Logo" class="center-logo">
+            <h2>SEA-SIDE RESTAURANT</h2>
+            <br>
+            <button id="ORDER BUTTON">ORDER HERE</button>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>SEASIDE FLOATING RESTAURANT</h2>
+    <p>Welcome to Seaside Floating Restaurant, a one-of-a-kind dining spot in Bacolod, Philippines.<br> Enjoy breathtaking ocean views and the freshest seafood in town.</p>
+</section>
+
+<section class="menu">
+    <h3>DISCOVER OUR MENU</h3>
+    <p>Savor the ocean’s finest catch</p>
+    <button onclick="viewMenu()">View Menu</button>
+</section>
+
+<section class="reservation">
+    <h3>SECURE A TABLE</h3>
+    <p>Indulge in unique flavors soon</p>
+    <button onclick="reserveTable()">Reserve Now</button>
+</section>
+
+<section class="gallery">
+    <h3>BROWSE GALLERY</h3>
+    <div class="gallery-images">
+        <div class="image"><img src="image1.jpg" alt="image1"></div>
+        <div class="image"><img src="image2.jpg" alt="image2"></div>
+    </div>
+</section>
+
+<section class="location">
+    <h3>OUR LOCATION</h3>
+    <p>Seaside Floating Restaurant, Barangay Balaring, Silay City, Negros Occidental, Philippines</p>
+    <button onclick="viewLocation()">View Location</button>
+</section>
+
+<footer>
+    <p>Operating Hours: Monday - Sunday, 8:00 AM - 9:00 PM</p>
+    <p>Contact: +63 947 968 8950 | Email: info@seasidefloating.com</p>
+</footer>
+</body>
+</html>
